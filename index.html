@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faisal E-Commerce</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, nemo officiis. Fugiat, est impedit. Dicta cum ut assumenda illum nobis."
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!-- <link rel="stylesheet" href="file:///C:/Users/Nur%20Muhammad/Downloads/bootstrap-4.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="file:///C:/Users/Nur%20Muhammad/Downloads/bootstrap-4.1.3-dist/css/bootstrap.min.js"> -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <style>
+      body {
+        color: rebeccapurple;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <!-- <img src="images/logo.png" alt="" /> -->
+          <h1>FAISAL</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#shoes">Product</a>
+            </li>
+
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#backpack">Backpack</a>
+            </li> -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="#subscribe">Contact</a>
+            </li>
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form> -->
+
+          <div class="input-group form-inline my-2 my-lg-0 search-wd">
+            <input
+              class="form-control py-2 border-right-0 border"
+              type="search"
+              placeholder="Search"
+              id="example-search-input"
+            />
+            <span class="input-group-append">
+              <button
+                class="btn btn-outline-secondary border-left-0 border"
+                type="button"
+              >
+                <i class="fa fa-search"></i>
+              </button>
+            </span>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Carousel -->
+    <div class="container">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide orange-bg"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- .row>.col-md-7+.col-md-5 -->
+
+            <!-- applied grid for 2 section, and flex to place in the middle -->
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7">
+                <!-- <h1>Mega LCD TV</h1>
+                <p>This is the best thing for wasting time</p>
+                <h1 class="price">$1200</h1> -->
+                <button class="buy-now-btn">BUY NOW</button>
+              </div>
+
+              <div class="col-md-5">
+                <img
+                  src="images/vaseline/download (4).jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7">
+                <!-- <h1>Boss Headphone</h1>
+                <p>This is the best thing for wasting time</p>
+                <h1 class="price">$420</h1> -->
+                <button class="buy-now-btn">BUY NOW</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="images/saops/2133643-lifebuoy-innovation-care-soap-wrapper-125g.png.rendition.1338.1338.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7">
+                <!-- <h1>Play X-Box</h1>
+                <p>This is the best thing for wasting time</p>
+                <h1 class="price">$600</h1> -->
+                <button class="buy-now-btn">BUY NOW</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="images/boroplus/305a62e0ea623fb8620bbed25cf1cecf.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Categories -->
+    <div class="container categories">
+      <!-- .row>.col-md-4*3 -->
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <div class="cat1 d-flex justify-content-between align-items-center">
+            <h1>Atta</h1>
+            <img src="images/Atta/download (54).jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <div class="cat1 d-flex justify-content-between align-items-center">
+            <h1>Soap</h1>
+            <img src="images/saops/download (12).jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <div class="cat2 d-flex justify-content-between align-items-center">
+            <h1>Milk</h1>
+            <img src="images/salt/Milj/download (15).jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <div class="cat3 d-flex justify-content-between align-items-center">
+            <h1>Radhuni</h1>
+            <img src="images/Radhuni/download (13).jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Shoes-->
+    <div class="container shoes" id="shoes">
+      <h3>Shoes</h3>
+      <div class="card-deck">
+        <div class="card">
+          <img
+            src="images/Rice/download (1).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Supply 350</h5>
+            <!-- <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+            <h5>$120</h5>
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Rice/download (2).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Supply 350</h5>
+            <!-- <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+            <h5>$120</h5>
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Rice/download (3).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Nike 360</h5>
+            <!-- <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+            <h5>$320</h5>
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="images/Rice/download (4).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Red Airmax</h5>
+            <!-- <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+            <h5>$350</h5>
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container shoes" id="shoes">
+      <h3>Shoes</h3>
+      <div class="card-deck">
+        <div class="card">
+          <img
+            src="images/Atta/download (53).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Supply 350</h5>
+            <!-- <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+            <h5>$120</h5>
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Atta/download (54).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Supply 350</h5>
+            <!-- <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+            <h5>$120</h5>
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Atta/download (55).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Nike 360</h5>
+            <!-- <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+            <h5>$320</h5>
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="images/Atta/download (56).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Red Airmax</h5>
+            <!-- <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+            <h5>$350</h5>
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container shoes" id="shoes">
+      <h3>Shoes</h3>
+      <div class="card-deck">
+        <div class="card">
+          <img
+            src="images/Atta/brush/download (43).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Supply 350</h5>
+            <!-- <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+            <h5>$120</h5>
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Atta/brush/download (44).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Supply 350</h5>
+            <!-- <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+            <h5>$120</h5>
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Atta/brush/download (45).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Nike 360</h5>
+            <!-- <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+            <h5>$320</h5>
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="images/Atta/brush/download (46).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Red Airmax</h5>
+            <!-- <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+            <h5>$350</h5>
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container shoes" id="shoes">
+      <h3>Shoes</h3>
+      <div class="card-deck">
+        <div class="card">
+          <img
+            src="images/Atta/brush/Tissue/download (17).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Supply 350</h5>
+            <!-- <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+            <h5>$120</h5>
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Atta/brush/Tissue/download (18).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Supply 350</h5>
+            <!-- <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+            <h5>$120</h5>
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Atta/brush/Tissue/download (19).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Nike 360</h5>
+            <!-- <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+            <h5>$320</h5>
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="images/Atta/brush/Tissue/download (20).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Red Airmax</h5>
+            <!-- <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+            <h5>$350</h5>
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Backpack -->
+    <div class="container" id="backpack">
+      <h3>Backpack</h3>
+      <div class="card-deck">
+        <div class="card">
+          <img
+            src="images/saops/download (11).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <h5>$120</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/saops/2133643-lifebuoy-innovation-care-soap-wrapper-125g.png.rendition.1338.1338.webp"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <h5>$120</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/saops/download (13).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Blue Backpack</h5>
+            <h5>$150</h5>
+            <!-- <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="images/saops/download (14).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Black Backpack</h5>
+            <h5>$180</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="backpack">
+      <h3>Backpack</h3>
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/download (42).jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <h5>$120</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/download (40).jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <h5>$120</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/download (3).jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Blue Backpack</h5>
+            <h5>$150</h5>
+            <!-- <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/download (2).jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Black Backpack</h5>
+            <h5>$180</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="backpack">
+      <h3>Backpack</h3>
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/download (2).jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <h5>$120</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/download (12).jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <h5>$120</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/images (8).jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Blue Backpack</h5>
+            <h5>$150</h5>
+            <!-- <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/images (2).jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Black Backpack</h5>
+            <h5>$180</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="backpack">
+      <h3>Backpack</h3>
+      <div class="card-deck">
+        <div class="card">
+          <img
+            src="images/Oil/ACI-Pure-Soybean-Oil-5ltr-1.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <h5>$120</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Oil/download (7).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <h5>$120</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Oil/download (6).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Blue Backpack</h5>
+            <h5>$150</h5>
+            <!-- <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="images/Oil/download (7).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Black Backpack</h5>
+            <h5>$180</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="backpack">
+      <h3>Backpack</h3>
+      <div class="card-deck">
+        <div class="card">
+          <img
+            src="images/saops/download (11).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <h5>$120</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Radhuni/images (7).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <h5>$120</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Radhuni/images (6).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Blue Backpack</h5>
+            <h5>$150</h5>
+            <!-- <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="images/Radhuni/images (4).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Black Backpack</h5>
+            <h5>$180</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="backpack">
+      <h3>Backpack</h3>
+      <div class="card-deck">
+        <div class="card">
+          <img
+            src="images/Radhuni/download (9).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <h5>$120</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Radhuni/download (14).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <h5>$120</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Radhuni/download (13).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Blue Backpack</h5>
+            <h5>$150</h5>
+            <!-- <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="images/Radhuni/download (12).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Black Backpack</h5>
+            <h5>$180</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="backpack">
+      <h3>Backpack</h3>
+      <div class="card-deck">
+        <div class="card">
+          <img
+            src="images/Radhuni/download (11).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <h5>$120</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Radhuni/download (10).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Red Backpack</h5>
+            <h5>$120</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/boroplus/download (8).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Blue Backpack</h5>
+            <h5>$150</h5>
+            <!-- <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="images/boroplus/download (1).jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Black Backpack</h5>
+            <h5>$180</h5>
+            <!-- <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p> -->
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-btn">BUY NOW >></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subscribe -->
+    <!-- <div
+      class="container d-flex justify-content-center align-items-center orange-bg"
+      id="subscribe"
+    >
+      <div>
+        <h3>LET'S STAY IN TOUCH</h3>
+        <input
+          class="form-control"
+          type="email"
+          name="email"
+          id="email"
+        />
+        <button class="buy-now-btn">SIGN UP</button>
+
+        <hr /> -->
+
+    <div class="Contact">
+      <div class="container py-5">
+        <div class="header text-center">
+          <h2>CONTACT <span>ME</span></h2>
+          <!-- {/* <p>I'd really love to hear your feedback</p> */} -->
+          <div class="wrapper">
+            <div class="divider div-transparent div-dot"></div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-5">
+            <div class="card text-center py-4">
+              <div class="card-body">
+                <h4>Name</h4>
+                <p>Md Faisal Ahmed</p>
+                <h4 class="pt-3">Address</h4>
+                <p>
+                  Laldighi Madrasah, Kashimpur, Konabari Gazipur, Dhaka,
+                  Bangladesh
+                </p>
+                <h4 class="pt-3">Mobile</h4>
+                <p>+88-01994-759888</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7 mt-md-0 mt-5">
+            <form action="">
+              <div class="form-group">
+                <input
+                  type="text"
+                  placeholder="Name"
+                  name="user_name"
+                  class="form-control p-4"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  placeholder="Email"
+                  name="user_email"
+                  class="form-control p-4"
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  class="form-control p-4"
+                  rows="4"
+                  placeholder="Message"
+                  name="message"
+                ></textarea>
+              </div>
+              <input type="submit" class="btn btn-block py-3" value="SEND" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-3">
+      <small
+        >&copy; 2020 Panda Commerce . All rights reserved. Sofia,
+        Bulgaria.</small
+      >
+    </footer>
+
+    <!-- Bootstrap js -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Smooth Scroll -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/smooth-scroll.js"></script>
+  </body>
+</html>
